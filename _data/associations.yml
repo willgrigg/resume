@@ -1,0 +1,9 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: The Free Software Foundation (FSF)
+  role: Associate
+  year: 2020 &mdash; Present
+  url: https://www.fsf.org/
+  summary: The FSF is a non-profit foundation that aims to defend the rights of anyone who uses software through open-source and free (as in freedom) software.
+

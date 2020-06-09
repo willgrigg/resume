@@ -1,0 +1,63 @@
+# Site settings
+title: "Will W. Grigg"
+description: "My resume."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Will W. Grigg"
+resume_title:                   "IT Data Manager"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "willwgrigg@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "208-318-8690"
+resume_contact_address:         "Payette, ID"
+
+resume_header_contact_info:     "Payette, ID • 208-318-8690 • willwgrigg@gmail.com"
+display_header_contact_info:    "true"
+
+resume_header_intro: "<p>I am a technologist and an enthusiastic user of the GNU/Linux operating system. I have experience with software development, front-end web development, and data management. Aspiring sysadmin.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     false
+resume_section_links:           true
+resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/willgrigg"
+  #resume_twitter_url:           "twitter URL"
+  #resume_dribbble_url:          "dribble URL"
+  # resume_facebook_url:         "facebook URL"
+  resume_linkedin_url:          "https://www.linkedin.com/in/willgrigg/"
+  # resume_instagram_url:        "instagram URL"
+  #resume_website_url:           "website URL"
+  #resume_medium_url:            "medium URL"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
